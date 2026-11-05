@@ -53,14 +53,14 @@ custom-stack/custom-stack
 
 ## O que já existia (material original do zip)
 
-| Item | Situação original |
-|---|---|
-| `src/custom_stack_class.py` | Classe `CustomStack` com o bug `self.size == self.limit` |
-| `test/custom_stack_test.py` | Apenas **1 teste** (push de um elemento) |
-| `requirements.txt` | pytest, pytest-cov, pytest-mock e dependências |
-| `README.md` | Instruções de instalação e execução |
-| `.vscode/settings.json` | Configuração do pytest no VS Code |
-| `.coverage`, `.pytest_cache/` | Artefatos de execuções anteriores |
+| Item                              | Situação original                                          |
+| --------------------------------- | ------------------------------------------------------------ |
+| `src/custom_stack_class.py`     | Classe `CustomStack` com o bug `self.size == self.limit` |
+| `test/custom_stack_test.py`     | Apenas **1 teste** (push de um elemento)               |
+| `requirements.txt`              | pytest, pytest-cov, pytest-mock e dependências              |
+| `README.md`                     | Instruções de instalação e execução                    |
+| `.vscode/settings.json`         | Configuração do pytest no VS Code                          |
+| `.coverage`, `.pytest_cache/` | Artefatos de execuções anteriores                          |
 
 Com apenas esse teste, a cobertura era de **79%** e o bug passava despercebido:
 como `self.size` (o método) era comparado com `self.limit`, a condição nunca era
@@ -213,7 +213,3 @@ custom-stack/custom-stack/test/number_asc_order_test.py
 ```
 
 ---
-
-## Entrega
-
-Exercício individual — repositório Git com a implementação.
