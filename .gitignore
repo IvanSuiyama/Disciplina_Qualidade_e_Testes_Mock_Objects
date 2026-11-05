@@ -1,0 +1,30 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest / cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# IDEs e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+
+# Artefatos do zip original
+__MACOSX/
+*.zip
+
+# Material auxiliar (não faz parte do código do exercício)
+foto.png
+exercicio.txt
+link.txt
